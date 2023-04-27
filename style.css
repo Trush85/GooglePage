@@ -1,0 +1,112 @@
+html {
+   box-sizing: border-box;
+}
+*,
+*:before, *:after {
+    box-sizing: inherit;
+}
+
+/***General***/
+* {
+    font-family: arial,sans-serif;
+    color:#000000DE
+}
+
+/***Main***/
+main {
+    height: 83vh;
+}
+
+.btnLogin {
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 3px;
+    height: 30px;
+    width: 90px;
+    font-size: 14px;
+    position: relative;
+    left: 1220px;
+    top: 10px;
+}
+
+.btnSearch, .btnHapiness {
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    border: 1px solid #f8f9fa;
+    border-radius: 3px;
+    height: 37px;
+    width: 127px;
+}
+
+.btnSearch {
+    position: relative;
+    top: 300px;
+    right: 330px;
+}
+
+.btnHapiness {
+    position: relative;
+    top: 300px;
+    right: 320px;
+}
+
+main img {
+height: 92px;
+position: relative;
+left: 510px;
+top: 180px
+}
+
+main input[type="text"] {
+border: 1px solid #dadce0;
+border-radius: 30px;
+width: 550px;
+height: 50px;
+position: relative;
+top: 230px;
+left: 100px;
+}
+
+nav a:nth-child(1), 
+nav a:nth-child(2) {
+    text-decoration: none;
+    font-size: 14px ;
+}
+
+nav a:nth-child(1) {
+    position: relative;
+    left: 1220px;
+    top: 12px;
+}
+
+nav a:nth-child(2) {
+    position: relative;
+    left: 1120px;
+    top: 12px;
+}
+
+nav a img {
+    height: 18px;
+    position: relative;
+    left: 1200px;
+    top: 15px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #70757A;
+    font-size: 14px;
+    text-decoration: none;
+    height: 17vh ;
+}
+
+footer nav a {
+    color: #70757A;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+
